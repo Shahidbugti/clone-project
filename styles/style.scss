@@ -1,0 +1,22 @@
+$header1: 2.5rem;
+$header2: 2.5rem;
+$header3: 2rem;
+$header4: 2.5rem;
+$text: 2rem;
+$background-color: #152053;
+$text-white: #ffff;
+$Blackish: #0a0a0a;
+$voilish-color: #695aa6;
+
+
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+
+@import "global";
+@import "navbar";
