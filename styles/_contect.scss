@@ -1,0 +1,51 @@
+#Contect-section{
+    width: 100%;
+    height: 100%;
+    @include flex(center,center,column);
+    padding-top: 10rem;
+    form-text{
+        @include flex(center,center,column);
+    }
+
+    p{
+        padding-top: 5rem;
+    }
+    h3{
+        text-align: center;
+        font-size: 4rem;
+        color: #695aa6;
+        padding-top: 3rem;
+    }
+
+    .form{
+        @include flex(center,space-evenly,column);
+        padding-top: 5rem;
+        input{
+           width: 50rem;
+           padding: 1rem;
+           height: 5rem;
+           font-size: 2rem;
+           margin-top: 3rem;
+        }
+        textarea{
+            font-size: 2rem;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            width: auto;
+        }
+        button{
+            width: 20rem;
+            height: 5rem;
+            margin: 5rem auto;
+            border: 2px solid #695aa6;
+            background: transparent;
+            cursor: pointer;
+            border-radius: 3px;
+
+            &:hover{
+                background-color: #695aa6;
+                outline: 4px solid rgb(172, 154, 154);
+            }
+        }
+    }
+}
