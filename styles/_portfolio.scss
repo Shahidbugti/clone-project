@@ -15,8 +15,9 @@
     @include flex(space-evenly, center, row);
     padding-top: 7rem;
 
-    &:hover{
-        color: rgb(228, 215, 215);
+    .box:hover{
+        opacity: 0.4;
+        transition: all 0.2s linear;
     }
 
     .box1{
