@@ -7,6 +7,8 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
 }
 
 body {
@@ -63,6 +65,7 @@ a {
   background-color: #695aa6;
   padding: 12px 20px;
   height: 10vh;
+  position: fixed;
 }
 .nav-bar .logo {
   padding-left: 2rem;
